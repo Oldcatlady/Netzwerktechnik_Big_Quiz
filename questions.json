@@ -1,4 +1,5 @@
 [
+  [
   {
     "question": "Was macht ein Sniffer?",
     "type": "mc",
@@ -15,12 +16,12 @@
     "question": "Was ist ein Sniffer?",
     "type": "mc",
     "options": [
-      "A) Ein Gerät, das ausschließlich WLAN-Signale verstärkt und weiterleitet.",
-      "B) Ein Programm oder Gerät zur Analyse und Überwachung von Netzwerkverkehr.",
+      "A) Ein Programm oder Gerät zur Analyse und Überwachung von Netzwerkverkehr.",
+      "B) Ein Gerät, das ausschließlich WLAN-Signale verstärkt und weiterleitet.",
       "C) Ein Protokoll zur automatischen Vergabe von IP-Adressen im Netzwerk.",
       "D) Ein Bauteil, das nur für die physische Verbindung von Netzwerkkabeln zuständig ist."
     ],
-    "answer": "B",
+    "answer": "A",
     "explanation": "Ein Sniffer ist ein Programm oder ein Gerät, das den Netzwerkverkehr überwacht und analysiert. Ein bekanntes Beispiel ist Wireshark. Damit kann man sich genau anschauen, welche Datenpakete gesendet und empfangen werden."
   },
   {
@@ -28,11 +29,11 @@
     "type": "mc",
     "options": [
       "A) Immer dann, wenn man Zugriff auf ein öffentliches WLAN hat.",
-      "B) Nur mit Erlaubnis, zum Beispiel im eigenen Netzwerk oder durch den Betreiber.",
-      "C) Nur wenn man ein Netzwerk neu einrichtet und testet.",
-      "D) Nur wenn keine anderen Geräte im Netzwerk aktiv sind."
+      "B) Nur wenn man ein Netzwerk neu einrichtet und testet.",
+      "C) Nur wenn keine anderen Geräte im Netzwerk aktiv sind.",
+      "D) Nur mit Erlaubnis, zum Beispiel im eigenen Netzwerk oder durch den Betreiber."
     ],
-    "answer": "B",
+    "answer": "D",
     "explanation": "Einen Sniffer darf man nur benutzen, wenn man die Erlaubnis dafür hat. Das ist zum Beispiel im eigenen Netzwerk erlaubt oder wenn der Netzwerkbetreiber zugestimmt hat. Ohne Erlaubnis wäre es verboten, weil man damit fremde Daten ausspähen könnte."
   },
   {
@@ -40,11 +41,11 @@
     "type": "mc",
     "options": [
       "A) Ein physisches Kabelsystem zur Verbindung von Computern.",
-      "B) Ein Modell zur Beschreibung der Schichten der Netzwerkkommunikation.",
-      "C) Ein Programm zur Überwachung von Internetgeschwindigkeiten.",
+      "B) Ein Programm zur Überwachung von Internetgeschwindigkeiten.",
+      "C) Ein Modell zur Beschreibung der Schichten der Netzwerkkommunikation.",
       "D) Ein Sicherheitsprotokoll zur Verschlüsselung von Datenübertragungen."
     ],
-    "answer": "B",
+    "answer": "C",
     "explanation": "Das OSI-Modell ist ein Modell, das beschreibt, wie Daten in einem Netzwerk übertragen werden. Es teilt den Ablauf in mehrere Schichten ein, damit man besser verstehen kann, welche Aufgabe jeder Teil der Kommunikation hat."
   },
   {
@@ -64,23 +65,23 @@
     "type": "mc",
     "options": [
       "A) Anwendungsschicht",
-      "B) Internet-Schicht",
-      "C) Transportschicht",
-      "D) Sicherungsschicht"
+      "B) Transportschicht",
+      "C) Sicherungsschicht",
+      "D) Internet-Schicht"
     ],
-    "answer": "B",
+    "answer": "D",
     "explanation": "Eine Schicht, die nicht zum OSI-Modell gehört, ist zum Beispiel die „Internet-Schicht“. Diese gehört zum TCP/IP-Modell und nicht zum OSI-Modell."
   },
   {
     "question": "Wofür steht CSMA/CD?",
     "type": "mc",
     "options": [
-      "A) Carrier Signal Monitoring / Communication Detection",
-      "B) Carrier Sense Multiple Access / Collision Detection",
+      "A) Carrier Sense Multiple Access / Collision Detection",
+      "B) Carrier Signal Monitoring / Communication Detection",
       "C) Control System Management / Data Control",
       "D) Central Switching Mode / Access Distribution"
     ],
-    "answer": "B",
+    "answer": "A",
     "explanation": "CSMA/CD steht für „Carrier Sense Multiple Access / Collision Detection“."
   },
   {
@@ -89,22 +90,22 @@
     "options": [
       "A) Ein Verfahren zur automatischen Vergabe von IP-Adressen in Netzwerken.",
       "B) Ein Verfahren zur gleichzeitigen Verschlüsselung und Kompression von Daten.",
-      "C) Ein Verfahren, bei dem Geräte Kollisionen im Netzwerk erkennen und darauf reagieren.",
-      "D) Ein Protokoll zur direkten Verbindung von zwei Computern ohne Netzwerkgerät."
+      "C) Ein Protokoll zur direkten Verbindung von zwei Computern ohne Netzwerkgerät.",
+      "D) Ein Verfahren, bei dem Geräte Kollisionen im Netzwerk erkennen und darauf reagieren."
     ],
-    "answer": "C",
+    "answer": "D",
     "explanation": "CSMA/CD ist ein Verfahren aus der Netzwerktechnik, das früher in Ethernet-Netzwerken genutzt wurde. Es sorgt dafür, dass mehrere Computer ein gemeinsames Übertragungsmedium nutzen können. Dabei hört jeder Computer zuerst, ob die Leitung frei ist. Wenn zwei Geräte gleichzeitig senden und es zu einer Kollision kommt, erkennen sie das, brechen die Übertragung ab und versuchen es nach einer kurzen Zeit erneut."
   },
   {
     "question": "Wo findet man Netzwerkkarten?",
     "type": "mc",
     "options": [
-      "A) Netzwerkkarten findet man nur in Servern und großen Rechenzentren.",
-      "B) Netzwerkkarten findet man ausschließlich in Desktop-Computern.",
-      "C) Netzwerkkarten findet man in allen Geräten, die sich mit einem Netzwerk verbinden können. Dazu gehören zum Beispiel Computer, Laptops, Smartphones, Tablets oder auch Spielkonsolen. Oft sind Netzwerkkarten heute schon fest in das Gerät eingebaut.",
+      "A) Netzwerkkarten findet man in allen Geräten, die sich mit einem Netzwerk verbinden können. Dazu gehören zum Beispiel Computer, Laptops, Smartphones, Tablets oder auch Spielkonsolen. Oft sind Netzwerkkarten heute schon fest in das Gerät eingebaut.",
+      "B) Netzwerkkarten findet man nur in Servern und großen Rechenzentren.",
+      "C) Netzwerkkarten findet man ausschließlich in Desktop-Computern.",
       "D) Netzwerkkarten sind nur als externe USB-Geräte erhältlich und nicht fest verbaut."
     ],
-    "answer": "C",
+    "answer": "A",
     "explanation": "Netzwerkkarten sind in fast allen modernen Geräten eingebaut, die sich mit einem Netzwerk verbinden können."
   },
   {
@@ -112,11 +113,11 @@
     "type": "mc",
     "options": [
       "A) Über die IP-Adresse des Routers",
-      "B) Über die MAC-Adresse der Netzwerkkarte",
-      "C) Über den Hostnamen des Betriebssystems",
-      "D) Über die Seriennummer des Geräts"
+      "B) Über die Seriennummer des Geräts",
+      "C) Über die MAC-Adresse der Netzwerkkarte",
+      "D) Über den Hostnamen des Betriebssystems"
     ],
-    "answer": "B",
+    "answer": "C",
     "explanation": "Eine Netzwerkkarte erreicht man über ihre sogenannte MAC-Adresse. Das ist eine eindeutige Adresse, die jede Netzwerkkarte besitzt. Über diese Adresse können Daten im Netzwerk genau an das richtige Gerät geschickt werden."
   },
   {
@@ -136,11 +137,11 @@
     "type": "mc",
     "options": [
       "A) Sie besitzt eine fest vergebene MAC-Adresse",
-      "B) Sie kann Daten im Netzwerk senden und empfangen",
-      "C) Die IP-Adresse wird vom Netzwerk vergeben und kann sich ändern. Außerdem ist die Netzwerkkarte nicht dafür zuständig, Programme auszuführen oder Daten dauerhaft zu speichern.",
+      "B) Die IP-Adresse wird vom Netzwerk vergeben und kann sich ändern. Außerdem ist die Netzwerkkarte nicht dafür zuständig, Programme auszuführen oder Daten dauerhaft zu speichern.",
+      "C) Sie kann Daten im Netzwerk senden und empfangen",
       "D) Sie arbeitet als Schnittstelle zwischen Gerät und Netzwerk"
     ],
-    "answer": "C",
+    "answer": "B",
     "explanation": "Eine Netzwerkkarte hat keine feste IP-Adresse und führt keine Programme aus. Diese Aufgaben liegen beim Betriebssystem bzw. dem Netzwerk."
   },
   {
@@ -149,10 +150,10 @@
     "options": [
       "A) Sie speichert Datenpakete dauerhaft im Speicher des Computers.",
       "B) Sie wandelt Daten nur beim Empfangen in Signale um und ignoriert das Senden.",
-      "C) Eine Netzwerkkarte sorgt dafür, dass Datenpakete gesendet und empfangen werden können. Beim Senden wandelt sie die Daten in elektrische oder Funksignale um, die über das Netzwerk übertragen werden. Beim Empfangen wandelt sie diese Signale wieder in Daten um und gibt sie an das Betriebssystem weiter.",
-      "D) Sie leitet Datenpakete ohne Verarbeitung direkt an andere Geräte weiter."
+      "C) Sie leitet Datenpakete ohne Verarbeitung direkt an andere Geräte weiter.",
+      "D) Eine Netzwerkkarte sorgt dafür, dass Datenpakete gesendet und empfangen werden können. Beim Senden wandelt sie die Daten in elektrische oder Funksignale um, die über das Netzwerk übertragen werden. Beim Empfangen wandelt sie diese Signale wieder in Daten um und gibt sie an das Betriebssystem weiter."
     ],
-    "answer": "C",
+    "answer": "D",
     "explanation": "Eine Netzwerkkarte sorgt dafür, dass Datenpakete gesendet und empfangen werden können. Beim Senden wandelt sie die Daten in elektrische oder Funksignale um, die über das Netzwerk übertragen werden. Beim Empfangen wandelt sie diese Signale wieder in Daten um und gibt sie an das Betriebssystem weiter."
   },
   {
@@ -172,11 +173,11 @@
     "type": "mc",
     "options": [
       "A) Ein Gerät zur Verstärkung von WLAN-Signalen.",
-      "B) Ein Programm zur Verwaltung von IP-Adressen.",
-      "C) Ein Switch ist ein Gerät in einem Netzwerk, das mehrere Geräte miteinander verbindet. Er merkt sich, welche MAC-Adresse an welchem Anschluss hängt, und leitet Datenpakete gezielt nur an den richtigen Empfänger weiter. Dadurch wird das Netzwerk schneller und effizienter.",
+      "B) Ein Switch ist ein Gerät in einem Netzwerk, das mehrere Geräte miteinander verbindet. Er merkt sich, welche MAC-Adresse an welchem Anschluss hängt, und leitet Datenpakete gezielt nur an den richtigen Empfänger weiter. Dadurch wird das Netzwerk schneller und effizienter.",
+      "C) Ein Programm zur Verwaltung von IP-Adressen.",
       "D) Ein Kabel zur Verbindung mehrerer Netzwerke."
     ],
-    "answer": "C",
+    "answer": "B",
     "explanation": "Ein Switch ist ein Gerät in einem Netzwerk, das mehrere Geräte miteinander verbindet. Er merkt sich, welche MAC-Adresse an welchem Anschluss hängt, und leitet Datenpakete gezielt nur an den richtigen Empfänger weiter. Dadurch wird das Netzwerk schneller und effizienter."
   },
   {
@@ -185,22 +186,22 @@
     "options": [
       "A) Um Geräte ohne Netzwerk miteinander zu verbinden.",
       "B) Um Internetgeschwindigkeit automatisch zu erhöhen.",
-      "C) Einen Switch benutzt man, um mehrere Geräte in einem Netzwerk miteinander zu verbinden. Er sorgt dafür, dass Datenpakete gezielt nur an das richtige Gerät weitergeleitet werden und nicht an alle Geräte gleichzeitig. Dadurch wird das Netzwerk schneller und effizienter.",
-      "D) Um automatisch IP-Adressen zu vergeben."
+      "C) Um automatisch IP-Adressen zu vergeben.",
+      "D) Einen Switch benutzt man, um mehrere Geräte in einem Netzwerk miteinander zu verbinden. Er sorgt dafür, dass Datenpakete gezielt nur an das richtige Gerät weitergeleitet werden und nicht an alle Geräte gleichzeitig. Dadurch wird das Netzwerk schneller und effizienter."
     ],
-    "answer": "C",
+    "answer": "D",
     "explanation": "Einen Switch benutzt man, um mehrere Geräte in einem Netzwerk miteinander zu verbinden. Er sorgt dafür, dass Datenpakete gezielt nur an das richtige Gerät weitergeleitet werden und nicht an alle Geräte gleichzeitig. Dadurch wird das Netzwerk schneller und effizienter."
   },
   {
     "question": "Was ist der Unterschied zwischen einem managed und einem un-managed Switch?",
     "type": "mc",
     "options": [
-      "A) Ein managed Switch funktioniert ohne Strom.",
-      "B) Ein un-managed Switch ist immer schneller als ein managed Switch.",
-      "C) Ein unmanaged Switch arbeitet automatisch und ohne Einstellungen. Man steckt die Geräte ein und er funktioniert sofort. Ein managed Switch kann dagegen konfiguriert werden. Man kann zum Beispiel einstellen, welche Geräte miteinander kommunizieren dürfen oder VLANs einrichten. Dadurch hat man mehr Kontrolle über das Netzwerk.",
+      "A) Ein unmanaged Switch arbeitet automatisch und ohne Einstellungen. Man steckt die Geräte ein und er funktioniert sofort. Ein managed Switch kann dagegen konfiguriert werden. Man kann zum Beispiel einstellen, welche Geräte miteinander kommunizieren dürfen oder VLANs einrichten. Dadurch hat man mehr Kontrolle über das Netzwerk.",
+      "B) Ein managed Switch funktioniert ohne Strom.",
+      "C) Ein un-managed Switch ist immer schneller als ein managed Switch.",
       "D) Beide Switch-Typen sind technisch identisch ohne Unterschiede."
     ],
-    "answer": "C",
+    "answer": "A",
     "explanation": "Ein unmanaged Switch arbeitet automatisch und ohne Einstellungen. Man steckt die Geräte ein und er funktioniert sofort. Ein managed Switch kann dagegen konfiguriert werden. Man kann zum Beispiel einstellen, welche Geräte miteinander kommunizieren dürfen oder VLANs einrichten. Dadurch hat man mehr Kontrolle über das Netzwerk."
   },
   {
@@ -209,22 +210,22 @@
     "options": [
       "A) Ja, zur Anwendungsschicht.",
       "B) Ja, zur Transportschicht.",
-      "C) Ein Switch ist kein Bestandteil des OSI-Modells selbst. Das OSI-Modell ist ein theoretisches Modell, das beschreibt, wie Netzwerkkommunikation funktioniert. Ein Switch ist ein echtes Gerät, das in einem Netzwerk verwendet wird.",
-      "D) Ja, zur Darstellungsschicht."
+      "C) Ja, zur Darstellungsschicht.",
+      "D) Ein Switch ist kein Bestandteil des OSI-Modells selbst. Das OSI-Modell ist ein theoretisches Modell, das beschreibt, wie Netzwerkkommunikation funktioniert. Ein Switch ist ein echtes Gerät, das in einem Netzwerk verwendet wird."
     ],
-    "answer": "C",
+    "answer": "D",
     "explanation": "Ein Switch ist kein Bestandteil des OSI-Modells selbst. Das OSI-Modell ist ein theoretisches Modell, das beschreibt, wie Netzwerkkommunikation funktioniert. Ein Switch ist ein echtes Gerät, das in einem Netzwerk verwendet wird."
   },
   {
     "question": "Gehört ein un-managed Switch zu einer Schicht im OSI-Modell?",
     "type": "mc",
     "options": [
-      "A) Nein, er arbeitet auf der Anwendungsschicht.",
-      "B) Ein unmanaged Switch arbeitet auf der Sicherungsschicht, also Schicht 2 des OSI-Modells. Dort werden MAC-Adressen verwendet, um Daten an die richtigen Geräte weiterzuleiten.",
+      "A) Ein unmanaged Switch arbeitet auf der Sicherungsschicht, also Schicht 2 des OSI-Modells. Dort werden MAC-Adressen verwendet, um Daten an die richtigen Geräte weiterzuleiten.",
+      "B) Nein, er arbeitet auf der Anwendungsschicht.",
       "C) Er arbeitet auf der physikalischen Schicht.",
       "D) Er hat keine Verbindung zum OSI-Modell."
     ],
-    "answer": "B",
+    "answer": "A",
     "explanation": "Ein unmanaged Switch arbeitet auf der Sicherungsschicht, also Schicht 2 des OSI-Modells. Dort werden MAC-Adressen verwendet, um Daten an die richtigen Geräte weiterzuleiten."
   },
   {
@@ -232,11 +233,11 @@
     "type": "mc",
     "options": [
       "A) Aus zwei Zahlenblöcken mit Kommas getrennt.",
-      "B) Aus zufälligen Zeichen ohne Struktur.",
-      "C) IP-Adressen bestehen aus Zahlenblöcken. Bei einer IPv4-Adresse sind es vier Zahlen, die durch Punkte getrennt sind, zum Beispiel 192.168.0.1. Jede dieser Zahlen kann einen Wert von 0 bis 255 haben.",
+      "B) IP-Adressen bestehen aus Zahlenblöcken. Bei einer IPv4-Adresse sind es vier Zahlen, die durch Punkte getrennt sind, zum Beispiel 192.168.0.1. Jede dieser Zahlen kann einen Wert von 0 bis 255 haben.",
+      "C) Aus zufälligen Zeichen ohne Struktur.",
       "D) Aus Buchstaben und Symbolen gemischt."
     ],
-    "answer": "C",
+    "answer": "B",
     "explanation": "IP-Adressen bestehen aus Zahlenblöcken. Bei einer IPv4-Adresse sind es vier Zahlen, die durch Punkte getrennt sind, zum Beispiel 192.168.0.1. Jede dieser Zahlen kann einen Wert von 0 bis 255 haben."
   },
   {
@@ -255,12 +256,12 @@
     "question": "Was ist ein Ethernet-Frame?",
     "type": "mc",
     "options": [
-      "A) Ein Steuerprotokoll zur Vergabe von IP-Adressen im Netzwerk.",
-      "B) Ein physischer Anschluss für Netzwerkkabel an einem Switch.",
-      "C) Ein Ethernet-Frame ist ein Datenpaket, das in einem kabelgebundenen Netzwerk übertragen wird. Es enthält unter anderem die MAC-Adresse des Absenders und des Empfängers sowie die eigentlichen Nutzdaten.",
+      "A) Ein Ethernet-Frame ist ein Datenpaket, das in einem kabelgebundenen Netzwerk übertragen wird. Es enthält unter anderem die MAC-Adresse des Absenders und des Empfängers sowie die eigentlichen Nutzdaten.",
+      "B) Ein Steuerprotokoll zur Vergabe von IP-Adressen im Netzwerk.",
+      "C) Ein physischer Anschluss für Netzwerkkabel an einem Switch.",
       "D) Eine Art Verschlüsselungsschicht für WLAN-Verbindungen."
     ],
-    "answer": "C",
+    "answer": "A",
     "explanation": "Ein Ethernet-Frame ist ein Datenpaket, das in einem kabelgebundenen Netzwerk übertragen wird. Es enthält unter anderem die MAC-Adresse des Absenders und des Empfängers sowie die eigentlichen Nutzdaten."
   },
   {
@@ -269,10 +270,10 @@
     "options": [
       "A) Ein Port ist ein Programm zur Analyse von Netzwerkverkehr.",
       "B) Ein Port ist ein Kabeltyp für Glasfaserverbindungen.",
-      "C) Ein Port kann zwei Bedeutungen haben. Zum einen ist es eine physische Anschlussstelle an einem Gerät, zum Beispiel an einem Switch, an die man ein Netzwerkkabel anschließt. Zum anderen ist ein Port eine logische Nummer in der Netzwerktechnik, die angibt, für welchen Dienst Daten bestimmt sind, zum Beispiel für Webseiten oder E-Mails.",
-      "D) Ein Port ist eine feste IP-Adresse eines Geräts im Netzwerk."
+      "C) Ein Port ist eine feste IP-Adresse eines Geräts im Netzwerk.",
+      "D) Ein Port kann zwei Bedeutungen haben. Zum einen ist es eine physische Anschlussstelle an einem Gerät, zum Beispiel an einem Switch, an die man ein Netzwerkkabel anschließt. Zum anderen ist ein Port eine logische Nummer in der Netzwerktechnik, die angibt, für welchen Dienst Daten bestimmt sind, zum Beispiel für Webseiten oder E-Mails."
     ],
-    "answer": "C",
+    "answer": "D",
     "explanation": "Ein Port kann zwei Bedeutungen haben. Zum einen ist es eine physische Anschlussstelle an einem Gerät, zum Beispiel an einem Switch, an die man ein Netzwerkkabel anschließt. Zum anderen ist ein Port eine logische Nummer in der Netzwerktechnik, die angibt, für welchen Dienst Daten bestimmt sind, zum Beispiel für Webseiten oder E-Mails."
   },
   {
@@ -280,23 +281,23 @@
     "type": "mc",
     "options": [
       "A) Sie arbeiten unabhängig voneinander ohne Verbindung.",
-      "B) Sie werden nur im WLAN verwendet, nicht in kabelgebundenen Netzwerken.",
-      "C) Wenn Daten in einem Netzwerk verschickt werden, arbeiten diese drei Dinge zusammen. Die IP-Adresse sorgt dafür, dass das Datenpaket zum richtigen Gerät im Netzwerk oder Internet gelangt. Innerhalb eines lokalen Netzwerks wird das Paket dann in einen sogenannten Ethernet-Frame verpackt, der die MAC-Adressen von Absender und Empfänger enthält. Der Port sorgt schließlich dafür, dass die Daten im richtigen Programm ankommen, zum Beispiel im Browser oder bei einem E-Mail-Programm.",
+      "B) Wenn Daten in einem Netzwerk verschickt werden, arbeiten diese drei Dinge zusammen. Die IP-Adresse sorgt dafür, dass das Datenpaket zum richtigen Gerät im Netzwerk oder Internet gelangt. Innerhalb eines lokalen Netzwerks wird das Paket dann in einen sogenannten Ethernet-Frame verpackt, der die MAC-Adressen von Absender und Empfänger enthält. Der Port sorgt schließlich dafür, dass die Daten im richtigen Programm ankommen, zum Beispiel im Browser oder bei einem E-Mail-Programm.",
+      "C) Sie werden nur im WLAN verwendet, nicht in kabelgebundenen Netzwerken.",
       "D) Ethernet-Frames ersetzen IP-Adressen vollständig im Netzwerk."
     ],
-    "answer": "C",
+    "answer": "B",
     "explanation": "Wenn Daten in einem Netzwerk verschickt werden, arbeiten diese drei Dinge zusammen. Die IP-Adresse sorgt dafür, dass das Datenpaket zum richtigen Gerät im Netzwerk oder Internet gelangt. Innerhalb eines lokalen Netzwerks wird das Paket dann in einen sogenannten Ethernet-Frame verpackt, der die MAC-Adressen von Absender und Empfänger enthält. Der Port sorgt schließlich dafür, dass die Daten im richtigen Programm ankommen, zum Beispiel im Browser oder bei einem E-Mail-Programm."
   },
   {
     "question": "Was bedeutet der Buchstabe “F” in einer IP-Adresse?",
     "type": "mc",
     "options": [
-      "A) Er steht für einen Fehler im Netzwerkprotokoll.",
-      "B) Er ist ein Steuerzeichen für IPv4-Adressen.",
-      "C) Der Buchstabe „F“ kommt in einer normalen IPv4-Adresse eigentlich nicht vor, weil diese nur aus Zahlen besteht. Wenn man ein „F“ sieht, handelt es sich meistens um eine Darstellung im Hexadezimalsystem, zum Beispiel bei MAC-Adressen oder bei IPv6-Adressen. Dort steht „F“ für den Zahlenwert 15.",
+      "A) Der Buchstabe „F“ kommt in einer normalen IPv4-Adresse eigentlich nicht vor, weil diese nur aus Zahlen besteht. Wenn man ein „F“ sieht, handelt es sich meistens um eine Darstellung im Hexadezimalsystem, zum Beispiel bei MAC-Adressen oder bei IPv6-Adressen. Dort steht „F“ für den Zahlenwert 15.",
+      "B) Er steht für einen Fehler im Netzwerkprotokoll.",
+      "C) Er ist ein Steuerzeichen für IPv4-Adressen.",
       "D) Er bedeutet, dass die Verbindung verschlüsselt ist."
     ],
-    "answer": "C",
+    "answer": "A",
     "explanation": "Der Buchstabe „F“ kommt in einer normalen IPv4-Adresse eigentlich nicht vor, weil diese nur aus Zahlen besteht. Wenn man ein „F“ sieht, handelt es sich meistens um eine Darstellung im Hexadezimalsystem, zum Beispiel bei MAC-Adressen oder bei IPv6-Adressen. Dort steht „F“ für den Zahlenwert 15."
   },
   {
@@ -316,12 +317,12 @@
     "type": "mc",
     "options": [
       "A) Er ersetzt IP-Adressen im Netzwerk vollständig.",
-      "B) Er arbeitet nur mit Ports und ignoriert Frames.",
-      "C) Ein Switch verbindet Geräte über seine Ports miteinander und sorgt dafür, dass Ethernet-Frames nur an den richtigen Empfänger weitergeleitet werden. Dafür nutzt er die MAC-Adressen im Frame. Die IP-Adresse spielt für ihn dabei meist keine direkte Rolle, weil er auf einer niedrigeren Ebene arbeitet.",
+      "B) Ein Switch verbindet Geräte über seine Ports miteinander und sorgt dafür, dass Ethernet-Frames nur an den richtigen Empfänger weitergeleitet werden. Dafür nutzt er die MAC-Adressen im Frame. Die IP-Adresse spielt für ihn dabei meist keine direkte Rolle, weil er auf einer niedrigeren Ebene arbeitet.",
+      "C) Er arbeitet nur mit Ports und ignoriert Frames.",
       "D) Er dient ausschließlich zur Verschlüsselung von Daten."
     ],
-    "answer": "C",
-    "explanation": "Ein Switch verbindet Geräte über seine Ports miteinander und sorgt dafür, dass Ethernet-Frames nur an den richtigen Empfänger weitergeleitet werden. Dafür nutzt er die MAC-Adressen im Frame."
+    "answer": "B",
+    "explanation": "Ein Switch verbindet Geräte über seine Ports miteinander und sorgt dafür, dass Ethernet-Frames nur an den richtigen Empfänger weitergeleitet werden. Dafür nutzt er die MAC-Adressen im Frame. Die IP-Adresse spielt für ihn dabei meist keine direkte Rolle, weil er auf einer niedrigeren Ebene arbeitet."
   },
   {
     "question": "Was ist Port Mirroring?",
@@ -341,22 +342,22 @@
     "options": [
       "A) Es blockiert alle Datenpakete im Netzwerk.",
       "B) Es verteilt Daten zufällig auf alle Ports.",
-      "C) Beim Port Mirroring wird eingestellt, dass alle Daten, die über einen bestimmten Port laufen, zusätzlich an einen anderen Port gesendet werden. Dort kann man dann den gesamten Netzwerkverkehr mitlesen.",
-      "D) Es ersetzt physische Kabelverbindungen durch virtuelle Verbindungen."
+      "C) Es ersetzt physische Kabelverbindungen durch virtuelle Verbindungen.",
+      "D) Beim Port Mirroring wird eingestellt, dass alle Daten, die über einen bestimmten Port laufen, zusätzlich an einen anderen Port gesendet werden. Dort kann man dann den gesamten Netzwerkverkehr mitlesen."
     ],
-    "answer": "C",
+    "answer": "D",
     "explanation": "Beim Port Mirroring wird eingestellt, dass alle Daten, die über einen bestimmten Port laufen, zusätzlich an einen anderen Port gesendet werden. Dort kann man dann den gesamten Netzwerkverkehr mitlesen."
   },
   {
     "question": "Wozu benutzt man Port Mirroring?",
     "type": "mc",
     "options": [
-      "A) Zur Beschleunigung des Internetzugangs.",
-      "B) Zur automatischen Fehlerbehebung im Netzwerk.",
-      "C) Port Mirroring wird verwendet, um den Datenverkehr in einem Netzwerk zu überprozessen oder Fehler zu suchen. Es hilft dabei, genau zu sehen, welche Daten übertragen werden.",
+      "A) Port Mirroring wird verwendet, um den Datenverkehr in einem Netzwerk zu überwachen oder Fehler zu suchen. Es hilft dabei, genau zu sehen, welche Daten übertragen werden.",
+      "B) Zur Beschleunigung des Internetzugangs.",
+      "C) Zur automatischen Fehlerbehebung im Netzwerk.",
       "D) Zur Vergabe von IP-Adressen im Netzwerk."
     ],
-    "answer": "C",
+    "answer": "A",
     "explanation": "Port Mirroring wird verwendet, um den Datenverkehr in einem Netzwerk zu überwachen oder Fehler zu suchen. Es hilft dabei, genau zu sehen, welche Daten übertragen werden."
   },
   {
@@ -364,11 +365,11 @@
     "type": "mc",
     "options": [
       "A) Es ersetzt Sniffer vollständig im Netzwerk.",
-      "B) Es verhindert die Nutzung von Sniffern.",
-      "C) Port Mirroring wird oft zusammen mit einem Sniffer verwendet, zum Beispiel mit Wireshark. Der Sniffer läuft auf einem Computer, der an dem gespiegelten Port angeschlossen ist, und kann so den gesamten Datenverkehr analysieren.",
+      "B) Port Mirroring wird oft zusammen mit einem Sniffer verwendet, zum Beispiel mit Wireshark. Der Sniffer läuft auf einem Computer, der an dem gespiegelten Port angeschlossen ist, und kann so den gesamten Datenverkehr analysieren.",
+      "C) Es verhindert die Nutzung von Sniffern.",
       "D) Es verschlüsselt Daten für Sniffer."
     ],
-    "answer": "C",
+    "answer": "B",
     "explanation": "Port Mirroring wird oft zusammen mit einem Sniffer verwendet, zum Beispiel mit Wireshark. Der Sniffer läuft auf einem Computer, der an dem gespiegelten Port angeschlossen ist, und kann so den gesamten Datenverkehr analysieren."
   },
   {
@@ -377,22 +378,22 @@
     "options": [
       "A) Power of Ethernet",
       "B) Packet over Ethernet",
-      "C) PoE steht für „Power over Ethernet“.",
-      "D) Protocol over Ethernet"
+      "C) Protocol over Ethernet",
+      "D) PoE steht für „Power over Ethernet“."
     ],
-    "answer": "C",
+    "answer": "D",
     "explanation": "PoE steht für „Power over Ethernet“."
   },
   {
     "question": "Was ist ein PoE-Adapter?",
     "type": "mc",
     "options": [
-      "A) Ein Gerät zur Verbesserung der WLAN-Reichweite",
-      "B) Ein Adapter zur Datenverschlüsselung im Netzwerk",
-      "C) Ein PoE-Adapter ist ein Gerät, das Strom über ein Netzwerkkabel liefert. Damit können Geräte wie Überwachungskameras oder WLAN-Access-Points mit Strom versorgt werden, ohne dass sie ein eigenes Stromkabel benötigen.",
+      "A) Ein PoE-Adapter ist ein Gerät, das Strom über ein Netzwerkkabel delivers. Damit können Geräte wie Überwachungskameras oder WLAN-Access-Points mit Strom versorgt werden, ohne dass sie ein eigenes Stromkabel benötigen.",
+      "B) Ein Gerät zur Verbesserung der WLAN-Reichweite",
+      "C) Ein Adapter zur Datenverschlüsselung im Netzwerk",
       "D) Ein Gerät zur Verteilung von IP-Adressen"
     ],
-    "answer": "C",
+    "answer": "A",
     "explanation": "Ein PoE-Adapter ist ein Gerät, das Strom über ein Netzwerkkabel liefert. Damit können Geräte wie Überwachungskameras oder WLAN-Access-Points mit Strom versorgt werden, ohne dass sie ein eigenes Stromkabel benötigen."
   },
   {
@@ -400,11 +401,11 @@
     "type": "mc",
     "options": [
       "A) Um WLAN-Signale zu verstärken",
-      "B) Um Datenpakete zu verschlüsseln",
-      "C) Einen PoE-Adapter benutzt man, um ein Gerät über das Netzwerkkabel gleichzeitig mit Daten und Strom zu versorgen. Das ist praktisch bei Geräten wie Überwachungskameras oder WLAN-Access-Points, weil man kein zusätzliches Stromkabel verlegen muss.",
+      "B) Einen PoE-Adapter benutzt man, um ein Gerät über das Netzwerkkabel gleichzeitig mit Daten und Strom zu versorgen. Das ist praktisch bei Geräten wie Überwachungskameras oder WLAN-Access-Points, weil man kein zusätzliches Stromkabel verlegen muss.",
+      "C) Um Datenpakete zu verschlüsseln",
       "D) Um IP-Adressen automatisch zu vergeben"
     ],
-    "answer": "C",
+    "answer": "B",
     "explanation": "Einen PoE-Adapter benutzt man, um ein Gerät über das Netzwerkkabel gleichzeitig mit Daten und Strom zu versorgen. Das ist praktisch bei Geräten wie Überwachungskameras oder WLAN-Access-Points, weil man kein zusätzliches Stromkabel verlegen muss."
   },
   {
@@ -413,22 +414,22 @@
     "options": [
       "A) Im IP-Header vor der Zieladresse",
       "B) Im Nutzdatenbereich am Ende des Frames",
-      "C) Das VLAN-Tag wird in einem Ethernet-Frame eingefügt. Es befindet sich zwischen den MAC-Adressen und dem eigentlichen Nutzdatenbereich. Dadurch kann das Netzwerk erkennen, zu welchem VLAN das Datenpaket gehört.",
-      "D) Im TCP-Header nach der Prüfsumme"
+      "C) Im TCP-Header nach der Prüfsumme",
+      "D) Das VLAN-Tag wird in einem Ethernet-Frame eingefügt. Es befindet sich zwischen den MAC-Adressen und dem eigentlichen Nutzdatenbereich. Dadurch kann das Netzwerk erkennen, zu welchem VLAN das Datenpaket gehört."
     ],
-    "answer": "C",
+    "answer": "D",
     "explanation": "Das VLAN-Tag wird in einem Ethernet-Frame eingefügt. Es befindet sich zwischen den MAC-Adressen und dem eigentlichen Nutzdatenbereich. Dadurch kann das Netzwerk erkennen, zu welchem VLAN das Datenpaket gehört."
   },
   {
     "question": "Wann wird ein Datenpaket untagged?",
     "type": "mc",
     "options": [
-      "A) Immer beim Senden vom Computer",
-      "B) Nur bei verschlüsselten Verbindungen",
-      "C) Ein Datenpaket wird untagged, wenn es ein Gerät erreicht, das keine VLAN-Tags verarbeitet, zum Beispiel ein normaler Computer. Auch an sogenannten Access-Ports eines Switches werden die Tags entfernt, bevor die Daten weitergegeben werden.",
+      "A) Ein Datenpaket wird untagged, wenn es ein Gerät erreicht, das keine VLAN-Tags verarbeitet, zum Beispiel ein normaler Computer. Auch an sogenannten Access-Ports eines Switches werden die Tags entfernt, bevor die Daten weitergegeben werden.",
+      "B) Immer beim Senden vom Computer",
+      "C) Nur bei verschlüsselten Verbindungen",
       "D) Nur bei Broadcast-Nachrichten"
     ],
-    "answer": "C",
+    "answer": "A",
     "explanation": "Ein Datenpaket wird untagged, wenn es ein Gerät erreicht, das keine VLAN-Tags verarbeitet, zum Beispiel ein normaler Computer. Auch an sogenannten Access-Ports eines Switches werden die Tags entfernt, bevor die Daten weitergegeben werden."
   },
   {
@@ -448,11 +449,11 @@
     "type": "mc",
     "options": [
       "A) Ein Adapter, der nur WLAN verteilt",
-      "B) Ein intelligentes Gerät mit automatischer Spannungserkennung",
-      "C) Ein passiver PoE-Adapter ist ein einfaches Gerät, das Strom über das Netzwerkkabel überträgt, ohne dabei mit dem angeschlossenen Gerät zu „verhandeln“. Das bedeutet, der Strom wird einfach immer auf die Leitung gelegt.",
+      "B) Ein passiver PoE-Adapter ist ein einfaches Gerät, das Strom über das Netzwerkkabel überträgt, ohne dabei mit dem angeschlossenen Gerät zu „verhandeln“. Das bedeutet, der Strom wird einfach immer auf die Leitung gelegt.",
+      "C) Ein intelligentes Gerät mit automatischer Spannungserkennung",
       "D) Ein Gerät zur Datenverschlüsselung im Netzwerk"
     ],
-    "answer": "C",
+    "answer": "B",
     "explanation": "Ein passiver PoE-Adapter ist ein einfaches Gerät, das Strom über das Netzwerkkabel überträgt, ohne dabei mit dem angeschlossenen Gerät zu „verhandeln“. Das bedeutet, der Strom wird einfach immer auf die Leitung gelegt."
   },
   {
@@ -461,22 +462,22 @@
     "options": [
       "A) Er erhöht die Geschwindigkeit automatisch",
       "B) Er hat keinen Einfluss auf die Datenrate",
-      "C) Ein passiver PoE-Adapter kann die Datenübertragungsrate einschränken, weil nicht alle Leitungen im Kabel für Daten genutzt werden. Dadurch ist oft nur eine geringere Geschwindigkeit möglich.",
-      "D) Er ersetzt die Netzwerkkarte im Gerät"
+      "C) Er ersetzt die Netzwerkkarte im Gerät",
+      "D) Ein passiver PoE-Adapter kann die Datenübertragungsrate einschränken, weil nicht alle Leitungen im Kabel für Daten genutzt werden. Dadurch ist oft nur eine geringere Geschwindigkeit möglich."
     ],
-    "answer": "C",
+    "answer": "D",
     "explanation": "Ein passiver PoE-Adapter kann die Datenübertragungsrate einschränken, weil nicht alle Leitungen im Kabel für Daten genutzt werden. Dadurch ist oft nur eine geringere Geschwindigkeit möglich."
   },
   {
     "question": "Wie viele Adern stehen zur Datenübertragung bei einem passiven PoE-Adapter zur Verfügung?",
     "type": "mc",
     "options": [
-      "A) Zwei Adern (ein Paar)",
-      "B) Acht Adern (vier Paare)",
-      "C) Bei einem passiven PoE-Adapter werden meist nur vier Adern (also zwei Adernpaare) für die Datenübertragung verwendet.",
+      "A) Bei einem passiven PoE-Adapter werden meist nur vier Adern (also zwei Adernpaare) für die Datenübertragung verwendet.",
+      "B) Zwei Adern (ein Paar)",
+      "C) Acht Adern (vier Paare)",
       "D) Sechs Adern (drei Paare)"
     ],
-    "answer": "C",
+    "answer": "A",
     "explanation": "Bei einem passiven PoE-Adapter werden meist nur vier Adern (also zwei Adernpaare) für die Datenübertragung verwendet."
   },
   {
@@ -484,11 +485,11 @@
     "type": "mc",
     "options": [
       "A) Zwei Adern (ein Paar)",
-      "B) Vier Adern (zwei Adernpaare)",
-      "C) Für die Stromübertragung werden ebenfalls vier Adern (zwei Adernpaare) verwendet.",
+      "B) Für die Stromübertragung werden ebenfalls vier Adern (zwei Adernpaare) verwendet.",
+      "C) Vier Adern (zwei Adernpaare)",
       "D) Acht Adern (vier Paare)"
     ],
-    "answer": "C",
+    "answer": "B",
     "explanation": "Für die Stromübertragung werden ebenfalls vier Adern (zwei Adernpaare) verwendet."
   },
   {
@@ -496,11 +497,11 @@
     "type": "mc",
     "options": [
       "A) 10 Mbit/s",
-      "B) 100 Mbit/s",
-      "C) Die maximale Datenübertragungsrate liegt in der Regel bei 100 Mbit/s, weil nur ein Teil der Adern für Daten genutzt wird.",
+      "B) Die maximale Datenübertragungsrate liegt in der Regel bei 100 Mbit/s, weil nur ein Teil der Adern für Daten genutzt wird.",
+      "C) 100 Mbit/s",
       "D) 1 Gbit/s"
     ],
-    "answer": "C",
+    "answer": "B",
     "explanation": "Die maximale Datenübertragungsrate liegt in der Regel bei 100 Mbit/s, weil nur ein Teil der Adern für Daten genutzt wird."
   },
   {
@@ -509,7 +510,7 @@
     "options": [
       "A) Ein Switch ohne Netzwerkfunktion",
       "B) Ein Switch zur WLAN-Verstärkung",
-      "C) Ein PoE-Switch ist ein Netzwerk-Switch, der angeschlossene Geräte direkt über das Netzwerkkabel mit Strom versorgen kann. Im Gegensatz zu passiven Adaptern erkennt er automatisch, ob ein Gerät PoE unterstützt, und liefert nur dann Strom.",
+      "C) Ein PoE-Switch ist ein Netzwerk-Switch, der angeschlossene Geräte direkt über das Netzwerkkabel mit Strom versorgen kann. Im Gegenwart zu passiven Adaptern erkennt er automatisch, ob ein Gerät PoE unterstützt, und liefert nur dann Strom.",
       "D) Ein Switch, der nur Glasfaser unterstützt"
     ],
     "answer": "C",
@@ -521,22 +522,22 @@
     "options": [
       "A) IEEE 802.3at ist ein Standard für WLAN-Verbindungen im 2,4-GHz-Band.",
       "B) IEEE 802.3at ist ein Standard für Datenverschlüsselung im Ethernet.",
-      "C) IEEE 802.3at ist ein Standard für Power over Ethernet, also für die Stromversorgung über Netzwerkkabel. Er wird auch „PoE+“ genannt und legt fest, wie Geräte sicher über ein Ethernet-Kabel mit Strom versorgt werden können und wie viel Leistung dabei übertragen wird.",
-      "D) IEEE 802.3at ist ein Standard für IP-Adressvergabe in Netzwerken."
+      "C) IEEE 802.3at ist ein Standard für IP-Adressvergabe in Netzwerken.",
+      "D) IEEE 802.3at ist ein Standard für Power over Ethernet, also für die Stromversorgung über Netzwerkkabel. Er wird auch „PoE+“ genannt und legt fest, wie Geräte sicher über ein Ethernet-Kabel mit Strom versorgt werden können und wie viel Leistung dabei übertragen wird."
     ],
-    "answer": "C",
+    "answer": "D",
     "explanation": "IEEE 802.3at ist ein Standard für Power over Ethernet, also für die Stromversorgung über Netzwerkkabel. Er wird auch „PoE+“ genannt und legt fest, wie Geräte sicher über ein Ethernet-Kabel mit Strom versorgt werden können und wie viel Leistung dabei übertragen wird."
   },
   {
     "question": "Wie bündelt man mehrere physische Ports?",
     "type": "mc",
     "options": [
-      "A) Indem man sie über WLAN miteinander verbindet.",
-      "B) Indem man sie physisch mit einem einzigen Kabel ersetzt.",
-      "C) Mehrere physische Ports bündelt man, indem man sie logisch zu einer Verbindung zusammenfasst. Das geschieht mit einer Technik, die Link Aggregation genannt wird. Dabei werden mehrere Kabel gleichzeitig genutzt, als wären sie eine einzige Verbindung.",
+      "A) Mehrere physische Ports bündelt man, indem man sie logisch zu einer Verbindung zusammenfasst. Das geschieht mit einer Technik, die Link Aggregation genannt wird. Dabei werden mehrere Kabel gleichzeitig genutzt, als wären sie eine einzige Verbindung.",
+      "B) Indem man sie über WLAN miteinander verbindet.",
+      "C) Indem man sie physisch mit einem einzigen Kabel ersetzt.",
       "D) Indem man die IP-Adressen der Ports identisch setzt."
     ],
-    "answer": "C",
+    "answer": "A",
     "explanation": "Mehrere physische Ports bündelt man, indem man sie logisch zu einer Verbindung zusammenfasst. Das geschieht mit einer Technik, die Link Aggregation genannt wird. Dabei werden mehrere Kabel gleichzeitig genutzt, als wären sie eine einzige Verbindung."
   },
   {
@@ -568,11 +569,11 @@
     "type": "mc",
     "options": [
       "A) Ein physisches Kabelsystem im Netzwerk.",
-      "B) Ein Router-Betriebssystem.",
-      "C) Ein VLAN ist ein virtuelles lokales Netzwerk. Es teilt ein physisches Netzwerk in mehrere logische Netzwerke auf, sodass Geräte getrennt voneinander arbeiten können, obwohl sie an derselben Hardware angeschlossen sind.",
+      "B) Ein VLAN ist ein virtuelles lokales Netzwerk. Es teilt ein physisches Netzwerk in mehrere logische Netzwerke auf, sodass Geräte getrennt voneinander arbeiten können, obwohl sie an derselben Hardware angeschlossen sind.",
+      "C) Ein Router-Betriebssystem.",
       "D) Ein WLAN-Verstärker."
     ],
-    "answer": "C",
+    "answer": "B",
     "explanation": "Ein VLAN ist ein virtuelles lokales Netzwerk. Es teilt ein physisches Netzwerk in mehrere logische Netzwerke auf, sodass Geräte getrennt voneinander arbeiten können, obwohl sie an derselben Hardware angeschlossen sind."
   },
   {
@@ -581,22 +582,22 @@
     "options": [
       "A) Ein Switch ohne Stromversorgung.",
       "B) Ein WLAN-Gerät.",
-      "C) Ein VLAN-Switch ist ein Switch, der VLANs verwalten kann. Er kann Datenpakete verschiedenen virtuellen Netzwerken zuordnen und diese voneinander trennen.",
-      "D) Ein Kabelverteiler für Glasfaser."
+      "C) Ein Kabelverteiler für Glasfaser.",
+      "D) Ein VLAN-Switch ist ein Switch, der VLANs verwalten kann. Er kann Datenpakete verschiedenen virtuellen Netzwerken zuordnen und diese voneinander trennen."
     ],
-    "answer": "C",
+    "answer": "D",
     "explanation": "Ein VLAN-Switch ist ein Switch, der VLANs verwalten kann. Er kann Datenpakete verschiedenen virtuellen Netzwerken zuordnen und diese voneinander trennen."
   },
   {
     "question": "Wozu benutzt man einen VLAN-Switch?",
     "type": "mc",
     "options": [
-      "A) Zur Erhöhung der Internetgeschwindigkeit.",
-      "B) Zur WLAN-Erweiterung.",
-      "C) Einen VLAN-Switch benutzt man, um ein Netzwerk in mehrere Bereiche aufzuteilen. So kann man zum Beispiel verschiedene Abteilungen in einer Schule oder Firma voneinander trennen, obwohl alle dieselben Kabel nutzen.",
+      "A) Einen VLAN-Switch benutzt man, um ein Netzwerk in mehrere Bereiche aufzuteilen. So kann man zum Beispiel verschiedene Abteilungen in einer Schule oder Firma voneinander trennen, obwohl alle dieselben Kabel nutzen.",
+      "B) Zur Erhöhung der Internetgeschwindigkeit.",
+      "C) Zur WLAN-Erweiterung.",
       "D) Zur Verschlüsselung von Datenpaketen."
     ],
-    "answer": "C",
+    "answer": "A",
     "explanation": "Einen VLAN-Switch benutzt man, um ein Netzwerk in mehrere Bereiche aufzuteilen. So kann man zum Beispiel verschiedene Abteilungen in einer Schule oder Firma voneinander trennen, obwohl alle dieselben Kabel nutzen."
   },
   {
@@ -604,11 +605,11 @@
     "type": "mc",
     "options": [
       "A) Um Kabel zu sparen.",
-      "B) Um WLAN zu verbessern.",
-      "C) Man teilt physische Netze in mehrere logische Netze auf, um die Übersicht zu verbessern, die Sicherheit zu erhöhen und den Datenverkehr zu kontrollieren. Geräte aus unterschiedlichen VLANs können nicht einfach direkt miteinander kommunizieren.",
+      "B) Man teilt physische Netze in mehrere logische Netze auf, um die Übersicht zu verbessern, die Sicherheit zu erhöhen und den Datenverkehr zu kontrollieren. Geräte aus unterschiedlichen VLANs können nicht einfach direkt miteinander kommunizieren.",
+      "C) Um WLAN zu verbessern.",
       "D) Um Router schneller zu machen."
     ],
-    "answer": "C",
+    "answer": "B",
     "explanation": "Man teilt physische Netze in mehrere logische Netze auf, um die Übersicht zu verbessern, die Sicherheit zu erhöhen und den Datenverkehr zu kontrollieren. Geräte aus unterschiedlichen VLANs können nicht einfach direkt miteinander kommunizieren."
   },
   {
@@ -616,35 +617,35 @@
     "type": "mc",
     "options": [
       "A) Ein Bit hat 1 Byte.",
-      "B) Ein Bit hat 4 Byte.",
-      "C) Ein Bit ist die kleinste Einheit und entspricht genau einem einzelnen Wert, entweder 0 oder 1. Ein Bit ist kleiner als ein Byte. Ein Byte besteht aus 8 Bit.",
+      "B) Ein Bit ist die kleinste Einheit und entspricht genau einem einzelnen Wert, entweder 0 oder 1. Ein Bit ist kleiner als ein Byte. Ein Byte besteht aus 8 Bit.",
+      "C) Ein Bit hat 4 Byte.",
       "D) Ein Bit hat 2 Byte."
     ],
-    "answer": "C",
+    "answer": "B",
     "explanation": "Ein Bit ist die kleinste Einheit und entspricht genau einem einzelnen Wert, entweder 0 oder 1. Ein Bit ist kleiner als ein Byte. Ein Byte besteht aus 8 Bit."
   },
   {
     "question": "Wie viel Bit hat ein VLAN-Tag?",
     "type": "mc",
     "options": [
-      "A) 8 Bit",
-      "B) 16 Bit",
-      "C) Ein VLAN-Tag hat 12 Bit für die VLAN-ID. Damit können theoretisch 4096 verschiedene VLANs unterschieden werden.",
+      "A) Ein VLAN-Tag hat 12 Bit für die VLAN-ID. Damit können theoretisch 4096 verschiedene VLANs unterschieden werden.",
+      "B) 8 Bit",
+      "C) 16 Bit",
       "D) 24 Bit"
     ],
-    "answer": "C",
+    "answer": "A",
     "explanation": "Ein VLAN-Tag hat 12 Bit für die VLAN-ID. Damit können theoretisch 4096 verschiedene VLANs unterschieden werden."
   },
   {
     "question": "Was ist ein VLAN-Tag?",
     "type": "mc",
     "options": [
-      "A) Ein VLAN-Tag ist eine zusätzliche Information in einem Ethernet-Frame, die angibt, zu welchem VLAN ein Datenpaket gehört.",
-      "B) Ein VLAN-Tag ist eine IP-Adresse, die einem Gerät fest zugewiesen wird.",
-      "C) Ein VLAN-Tag ist ein Kabeltyp für schnelle Netzwerkverbindungen.",
+      "A) Ein VLAN-Tag ist eine IP-Adresse, die einem Gerät fest zugewiesen wird.",
+      "B) Ein VLAN-Tag ist ein Kabeltyp für schnelle Netzwerkverbindungen.",
+      "C) Ein VLAN-Tag ist eine zusätzliche Information in einem Ethernet-Frame, die angibt, zu welchem VLAN ein Datenpaket gehört.",
       "D) Ein VLAN-Tag ist ein Programm zur Netzwerküberwachung."
     ],
-    "answer": "A",
+    "answer": "C",
     "explanation": "Ein VLAN-Tag ist eine zusätzliche Information in einem Ethernet-Frame, die angibt, zu welchem VLAN ein Datenpaket gehört."
   },
   {
@@ -653,10 +654,10 @@
     "options": [
       "A) Die Kennzeichnung funktioniert über MAC-Adressen, die automatisch geändert werden.",
       "B) Die Kennzeichnung funktioniert über DNS-Namen im Netzwerk.",
-      "C) Die Kennzeichnung funktioniert, indem jedem Datenpaket ein VLAN-Tag hinzugefügt wird. Dieses enthält eine VLAN-ID. Switches lesen diese ID und wissen dadurch, zu welchem virtuellen Netzwerk das Paket gehört und wohin es weitergeleitet werden soll.",
-      "D) Die Kennzeichnung funktioniert über eine feste IP-Vergabe im Router."
+      "C) Die Kennzeichnung funktioniert über eine feste IP-Vergabe im Router.",
+      "D) Die Kennzeichnung funktioniert, indem jedem Datenpaket ein VLAN-Tag hinzugefügt wird. Dieses enthält eine VLAN-ID. Switches lesen diese ID und wissen dadurch, zu welchem virtuellen Netzwerk das Paket gehört und wohin es weitergeleitet werden soll."
     ],
-    "answer": "C",
+    "answer": "D",
     "explanation": "Die Kennzeichnung funktioniert, indem jedem Datenpaket ein VLAN-Tag hinzugefügt wird. Dieses enthält eine VLAN-ID. Switches lesen diese ID und wissen dadurch, zu welchem virtuellen Netzwerk das Paket gehört und wohin es weitergeleitet werden soll."
   },
   {
@@ -664,30 +665,30 @@
     "type": "mc",
     "options": [
       "A) Das Default VLAN 1 ist ein temporäres Testnetz ohne Funktion.",
-      "B) Das Default VLAN 1 ist ein WLAN-Standard für mobile Geräte.",
-      "C) Das Default VLAN 1 ist das Standard-VLAN auf vielen Switches. Alle Geräte gehören automatisch zu diesem VLAN, wenn nichts anderes eingestellt wird. Es wird oft für die erste Einrichtung genutzt.",
+      "B) Das Default VLAN 1 ist das Standard-VLAN auf vielen Switches. Alle Geräte gehören automatisch zu diesem VLAN, wenn nichts anderes eingestellt wird. Es wird oft für die erste Einrichtung genutzt.",
+      "C) Das Default VLAN 1 ist ein WLAN-Standard für mobile Geräte.",
       "D) Das Default VLAN 1 ist ein Sicherheitsprotokoll für Netzwerke."
     ],
-    "answer": "C",
+    "answer": "B",
     "explanation": "Das Default VLAN 1 ist das Standard-VLAN auf vielen Switches. Alle Geräte gehören automatisch zu diesem VLAN, wenn nichts anderes eingestellt wird. Es wird oft für die erste Einrichtung genutzt."
   },
   {
     "question": "Was ist ein Medienkonverter?",
     "type": "mc",
     "options": [
-      "A) Ein Medienkonverter ist ein Router für Glasfaserverbindungen.",
-      "B) Ein Medienkonverter ist ein Switch zur Aufteilung von Netzwerken.",
-      "C) Ein Medienkonverter ist ein Gerät, das zwei unterschiedliche Netzwerkmedien miteinander verbindet. Er wandelt zum Beispiel ein elektrisches Signal aus einem Kupfer-Netzwerkkabel in ein optisches Signal für Glasfaser um und umgekehrt. So können Geräte miteinander kommunizieren, die unterschiedliche Kabeltypen nutzen.",
+      "A) Ein Medienkonverter ist ein Gerät, das zwei unterschiedliche Netzwerkmedien miteinander verbindet. Er wandelt zum Beispiel ein elektrisches Signal aus einem Kupfer-Netzwerkkabel in ein optisches Signal für Glasfaser um und umgekehrt. So können Geräte miteinander kommunizieren, die unterschiedliche Kabeltypen nutzen.",
+      "B) Ein Medienkonverter ist ein Router für Glasfaserverbindungen.",
+      "C) Ein Medienkonverter ist ein Switch zur Aufteilung von Netzwerken.",
       "D) Ein Medienkonverter ist ein WLAN-Verstärker für große Gebäude."
     ],
-    "answer": "C",
+    "answer": "A",
     "explanation": "Ein Medienkonverter ist ein Gerät, das zwei unterschiedliche Netzwerkmedien miteinander verbindet. Er wandelt zum Beispiel ein elektrisches Signal aus einem Kupfer-Netzwerkkabel in ein optisches Signal für Glasfaser um und umgekehrt. So können Geräte miteinander kommunizieren, die unterschiedliche Kabeltypen nutzen."
   },
   {
     "question": "Was ist iperf?",
     "type": "mc",
     "options": [
-      "A) iperf ist ein Betriebssystem für Router.",
+      "A) iperf is ein Betriebssystem für Router.",
       "B) iperf ist ein Verschlüsselungsprotokoll für WLAN.",
       "C) iperf ist ein Programm, mit dem man die Geschwindigkeit und Leistung eines Netzwerks messen kann. Es testet zum Beispiel, wie schnell Daten von einem Computer zu einem anderen übertragen werden können und wie stabil die Verbindung ist.",
       "D) iperf ist ein Kabelstandard für Ethernet."
@@ -700,11 +701,11 @@
     "type": "mc",
     "options": [
       "A) iperfA und iperfB",
-      "B) iperfLite und iperfPro",
-      "C) Es gibt hauptsächlich zwei Varianten: iperf2 und iperf3. iperf3 ist die neuere Version und wurde verbessert, um genauere und stabilere Messergebnisse zu liefern.",
+      "B) Es gibt hauptsächlich zwei Varianten: iperf2 und iperf3. iperf3 ist die neuere Version und wurde verbessert, um genauere und stabilere Messergebnisse zu liefern.",
+      "C) iperfLite und iperfPro",
       "D) iperfNet und iperfTest"
     ],
-    "answer": "C",
+    "answer": "B",
     "explanation": "Es gibt hauptsächlich zwei Varianten: iperf2 und iperf3. iperf3 ist die neuere Version und wurde verbessert, um genauere und stabilere Messergebnisse zu liefern."
   },
   {
@@ -713,22 +714,22 @@
     "options": [
       "A) Ja, sie sind vollständig kompatibel.",
       "B) Ja, aber nur im WLAN.",
-      "C) iperf2 und iperf3 sind nicht vollständig miteinander kompatibel. Das bedeutet, dass ein iperf2-Client nicht immer problemlos mit einem iperf3-Server zusammenarbeiten kann und umgekehrt.",
-      "D) Nein, sie funktionieren nur auf demselben Gerät."
+      "C) Nein, sie funktionieren nur auf demselben Gerät.",
+      "D) iperf2 und iperf3 sind nicht vollständig miteinander kompatibel. Das bedeutet, dass ein iperf2-Client nicht immer problemlos mit einem iperf3-Server zusammenarbeiten kann und umgekehrt."
     ],
-    "answer": "C",
+    "answer": "D",
     "explanation": "iperf2 und iperf3 sind nicht vollständig miteinander kompatibel. Das bedeutet, dass ein iperf2-Client nicht immer problemlos mit einem iperf3-Server zusammenarbeiten kann und umgekehrt."
   },
   {
     "question": "Wie schaltet man VLAN-Switches zusammen?",
     "type": "mc",
     "options": [
-      "A) VLAN-Switches verbindet man über WLAN-Verbindungen miteinander.",
-      "B) VLAN-Switches verbindet man über normale Access-Ports ohne besondere Konfiguration.",
-      "C) VLAN-Switches verbindet man über sogenannte Trunk-Ports. Diese Ports übertragen mehrere VLANs gleichzeitig zwischen den Switches.",
+      "A) VLAN-Switches verbindet man über sogenannte Trunk-Ports. Diese Ports übertragen mehrere VLANs gleichzeitig zwischen den Switches.",
+      "B) VLAN-Switches verbindet man über WLAN-Verbindungen miteinander.",
+      "C) VLAN-Switches verbindet man über normale Access-Ports ohne besondere Konfiguration.",
       "D) VLAN-Switches verbindet man über USB-Kabel zwischen den Geräten."
     ],
-    "answer": "C",
+    "answer": "A",
     "explanation": "VLAN-Switches verbindet man über sogenannte Trunk-Ports. Diese Ports übertragen mehrere VLANs gleichzeitig zwischen den Switches."
   },
   {
@@ -749,22 +750,22 @@
     "options": [
       "A) Ein Paketizer ist ein Gerät, das WLAN-Signale verstärkt und weiterleitet.",
       "B) Ein Paketizer ist ein Netzwerkgerät zur IP-Adressvergabe.",
-      "C) Ein Paketizer ist eine Funktion oder ein Bauteil in der Netzwerktechnik, das Daten in kleinere Einheiten aufteilt, damit sie als Datenpakete über ein Netzwerk übertragen werden können. Diese Pakete enthalten dann die eigentlichen Daten plus zusätzliche Informationen wie Zieladresse und Steuerdaten.",
-      "D) Ein Paketizer ist ein Sicherheitsmodul zur Verschlüsselung von Daten."
+      "C) Ein Paketizer ist ein Sicherheitsmodul zur Verschlüsselung von Daten.",
+      "D) Ein Paketizer ist eine Funktion oder ein Bauteil in der Netzwerktechnik, das Daten in kleinere Einheiten aufgeteilt, damit sie als Datenpakete über ein Netzwerk übertragen werden können. Diese Pakete enthalten dann die eigentlichen Daten plus zusätzliche Informationen wie Zieladresse und Steuerdaten."
     ],
-    "answer": "C",
-    "explanation": "Ein Paketizer ist eine Funktion oder ein Bauteil in der Netzwerktechnik, das Daten in kleinere Einheiten aufteilt, damit sie als Datenpakete über ein Netzwerk übertragen werden können. Diese Pakete enthalten dann die eigentlichen Daten plus zusätzliche Informationen wie Zieladresse und Steuerdaten."
+    "answer": "D",
+    "explanation": "Ein Paketizer ist eine Funktion oder ein Bauteil in der Netzwerktechnik, das Daten in kleinere Einheiten aufgeteilt, damit sie als Datenpakete über ein Netzwerk übertragen werden können. Diese Pakete enthalten dann die eigentlichen Daten plus zusätzliche Informationen wie Zieladresse und Steuerdaten."
   },
   {
     "question": "Was ist ein Protokollstapel?",
     "type": "mc",
     "options": [
       "A) Ein Protokollstapel ist ein einzelnes Netzwerkprotokoll für WLAN.",
-      "B) Ein Protokollstapel ist ein physisches Gerät im Netzwerk wie ein Router.",
-      "C) Ein Protokollstapel ist die Gesamtheit mehrerer Netzwerkprotokolle, die zusammenarbeiten, um Daten zu übertragen. Jedes Protokoll hat dabei eine bestimmte Aufgabe, zum Beispiel Adressierung, Transport oder Darstellung der Daten. Ein bekanntes Beispiel ist der TCP/IP-Protokollstapel.",
+      "B) Ein Protokollstapel ist die Gesamtheit mehrerer Netzwerkprotokolle, die zusammenarbeiten, um Daten zu übertragen. Jedes Protokoll hat dabei eine bestimmte Aufgabe, zum Beispiel Adressierung, Transport oder Darstellung der Daten. Ein bekanntes Beispiel ist der TCP/IP-Protokollstapel.",
+      "C) Ein Protokollstapel ist ein physisches Gerät im Netzwerk wie ein Router.",
       "D) Ein Protokollstapel ist ein Kabeltyp für Ethernet-Verbindungen."
     ],
-    "answer": "C",
+    "answer": "B",
     "explanation": "Ein Protokollstapel ist die Gesamtheit mehrerer Netzwerkprotokolle, die zusammenarbeiten, um Daten zu übertragen. Jedes Protokoll hat dabei eine bestimmte Aufgabe, zum Beispiel Adressierung, Transport oder Darstellung der Daten. Ein bekanntes Beispiel ist der TCP/IP-Protokollstapel."
   },
   {
@@ -783,12 +784,12 @@
     "question": "Was ist Kollisionserkennung?",
     "type": "mc",
     "options": [
-      "A) Kollisionserkennung ist ein Verfahren zur automatischen IP-Zuweisung im Netzwerk.",
-      "B) Kollisionserkennung ist ein Verfahren zur WLAN-Signalverstärkung.",
-      "C) Kollisionserkennung ist ein Verfahren, bei dem ein Gerät erkennt, dass zwei Datenpakete gleichzeitig im Netzwerk gesendet wurden und sich gegenseitig stören. Das war besonders in älteren Ethernet-Netzwerken wichtig.",
+      "A) Kollisionserkennung ist ein Verfahren, bei dem ein Gerät erkennt, dass zwei Datenpakete gleichzeitig im Netzwerk gesendet wurden und sich gegenseitig stören. Das war besonders in älteren Ethernet-Netzwerken wichtig.",
+      "B) Kollisionserkennung ist ein Verfahren zur automatischen IP-Zuweisung im Netzwerk.",
+      "C) Kollisionserkennung ist ein Verfahren zur WLAN-Signalverstärkung.",
       "D) Kollisionserkennung ist ein Verfahren zur Datenkompression bei Netzwerken."
     ],
-    "answer": "C",
+    "answer": "A",
     "explanation": "Kollisionserkennung ist ein Verfahren, bei dem ein Gerät erkennt, dass zwei Datenpakete gleichzeitig im Netzwerk gesendet wurden und sich gegenseitig stören. Das war besonders in älteren Ethernet-Netzwerken wichtig."
   },
   {
@@ -808,11 +809,11 @@
     "type": "mc",
     "options": [
       "A) CSMA/CA steht für „Carrier Signal Multiple Access / Collision Access“.",
-      "B) CSMA/CA steht für „Computer System Management / Communication Access“.",
-      "C) CSMA/CA steht für „Carrier Sense Multiple Access / Collision Avoidance“. Es ist ein Verfahren, das Kollisionen im Netzwerk vermeiden soll, bevor sie überhaupt entstehen.",
+      "B) CSMA/CA steht für „Carrier Sense Multiple Access / Collision Avoidance“. Es ist ein Verfahren, das Kollisionen im Netzwerk vermeiden soll, bevor sie überhaupt entstehen.",
+      "C) CSMA/CA steht für „Computer System Management / Communication Access“.",
       "D) CSMA/CA steht für „Central Switching Mode Access / Control Algorithm“."
     ],
-    "answer": "C",
+    "answer": "B",
     "explanation": "CSMA/CA steht für „Carrier Sense Multiple Access / Collision Avoidance“. Es ist ein Verfahren, das Kollisionen im Netzwerk vermeiden soll, bevor sie überhaupt entstehen."
   },
   {
@@ -821,22 +822,22 @@
     "options": [
       "A) Ein Hub ist ein intelligenter Switch, der Daten gezielt weiterleitet.",
       "B) Ein Hub ist ein Router für WLAN-Netze.",
-      "C) Ein Hub ist ein einfaches Netzwerkgerät, das Daten an alle angeschlossenen Geräte gleichzeitig weiterleitet. Er unterscheidet nicht, für wen die Daten bestimmt sind.",
-      "D) Ein Hub ist ein Gerät zur Verschlüsselung von Netzwerkdaten."
+      "C) Ein Hub ist ein Gerät zur Verschlüsselung von Netzwerkdaten.",
+      "D) Ein Hub ist ein einfaches Netzwerkgerät, das Daten an alle angeschlossenen Geräte gleichzeitig weiterleitet. Er unterscheidet nicht, für wen die Daten bestimmt sind."
     ],
-    "answer": "C",
+    "answer": "D",
     "explanation": "Ein Hub ist ein einfaches Netzwerkgerät, das Daten an alle angeschlossenen Geräte gleichzeitig weiterleitet. Er unterscheidet nicht, für wen die Daten bestimmt sind."
   },
   {
     "question": "Was bedeutet halb-duplex?",
     "type": "mc",
     "options": [
-      "A) Halb-duplex bedeutet, dass Daten nur in eine Richtung übertragen werden können.",
-      "B) Halb-duplex bedeutet, dass Daten gleichzeitig in beide Richtungen übertragen werden können.",
-      "C) Halb-duplex bedeutet, dass Daten zwar in beide Richtungen übertragen werden können, aber nicht gleichzeitig. Es kann also entweder gesendet oder empfangen werden, aber nicht beides zur selben Zeit.",
+      "A) Halb-duplex bedeutet, dass Daten zwar in beide Richtungen übertragen werden können, aber nicht gleichzeitig. Es kann also entweder gesendet oder empfangen werden, aber nicht beides zur selben Zeit.",
+      "B) Halb-duplex bedeutet, dass Daten nur in eine Richtung übertragen werden können.",
+      "C) Halb-duplex bedeutet, dass Daten gleichzeitig in beide Richtungen übertragen werden können.",
       "D) Halb-duplex bedeutet, dass keine Datenübertragung möglich ist."
     ],
-    "answer": "C",
+    "answer": "A",
     "explanation": "Halb-duplex bedeutet, dass Daten zwar in beide Richtungen übertragen werden können, aber nicht gleichzeitig. Es kann also entweder gesendet oder empfangen werden, aber nicht beides zur selben Zeit."
   },
   {
@@ -845,22 +846,22 @@
     "options": [
       "A) Eine Feinsicherung ist ein Netzwerkfilter für Internetdaten.",
       "B) Eine Feinsicherung ist ein WLAN-Sicherheitsmodul.",
-      "C) Eine Feinsicherung ist ein kleines Sicherheitselement in elektrischen Geräten. Sie schützt vor zu hohem Strom, indem sie durchbrennt, wenn zu viel Strom fließt, und so das Gerät vor Schäden schützt.",
-      "D) Eine Feinsicherung ist ein Softwareprogramm zur Netzwerküberwachung."
+      "C) Eine Feinsicherung ist ein Softwareprogramm zur Netzwerküberwachung.",
+      "D) Eine Feinsicherung ist ein kleines Sicherheitselement in elektrischen Geräten. Sie schützt vor zu hohem Strom, indem sie durchbrennt, wenn zu viel Strom fließt, und so das Gerät vor Schäden schützt."
     ],
-    "answer": "C",
+    "answer": "D",
     "explanation": "Eine Feinsicherung ist ein kleines Sicherheitselement in elektrischen Geräten. Sie schützt vor zu hohem Strom, indem sie durchbrennt, wenn zu viel Strom fließt, und so das Gerät vor Schäden schützt."
   },
   {
     "question": "Wie ist eine SAT-Tabelle aufgebaut?",
     "type": "mc",
     "options": [
-      "A) Eine SAT-Tabelle besteht aus IP-Adressen und DNS-Namen.",
-      "B) Eine SAT-Tabelle besteht aus WLAN-Kanälen und Signalstärken.",
-      "C) Eine SAT-Tabelle (Switch Address Table) ist eine Tabelle in einem Switch, in der MAC-Adressen gespeichert werden. Sie enthält meist die MAC-Adresse eines Geräts und den zugehörigen Port, an dem dieses Gerät angeschlossen ist. So weiß der Switch, wohin er Datenpakete weiterleiten muss.",
+      "A) Eine SAT-Tabelle (Switch Address Table) ist eine Tabelle in einem Switch, in der MAC-Adressen gespeichert werden. Sie enthält meist die MAC-Adresse eines Geräts und den zugehörigen Port, an dem dieses Gerät angeschlossen ist. So weiß der Switch, wohin er Datenpakete weiterleiten muss.",
+      "B) Eine SAT-Tabelle besteht aus IP-Adressen und DNS-Namen.",
+      "C) Eine SAT-Tabelle besteht aus WLAN-Kanälen und Signalstärken.",
       "D) Eine SAT-Tabelle enthält nur Verschlüsselungsschlüssel für Netzwerke."
     ],
-    "answer": "C",
+    "answer": "A",
     "explanation": "Eine SAT-Tabelle (Switch Address Table) ist eine Tabelle in einem Switch, in der MAC-Adressen gespeichert werden. Sie enthält meist die MAC-Adresse eines Geräts und den zugehörigen Port, an dem dieses Gerät angeschlossen ist."
   },
   {
@@ -868,11 +869,11 @@
     "type": "mc",
     "options": [
       "A) Eine Checksumme ist eine IP-Adresse zur Fehlerkorrektur.",
-      "B) Eine Checksumme ist ein WLAN-Code zur Verbindung von Geräten.",
-      "C) Eine Checksumme ist eine kleine zusätzliche Zahl, die aus den Daten eines Datenpakets berechnet wird. Sie dient dazu, Fehler bei der Übertragung zu erkennen. Wenn sich auch nur ein kleines Bit in den Daten verändert, passt die Checksumme nicht mehr und man erkennt, dass etwas falsch übertragen wurde.",
+      "B) Eine Checksumme ist eine kleine zusätzliche Zahl, die aus den Daten eines Datenpakets berechnet wird. Sie dient dazu, Fehler bei der Übertragung zu erkennen. Wenn sich auch nur ein kleines Bit in den Daten verändert, passt die Checksumme nicht mehr und man erkennt, dass etwas falsch übertragen wurde.",
+      "C) Eine Checksumme ist ein WLAN-Code zur Verbindung von Geräten.",
       "D) Eine Checksumme ist ein Netzwerkport zur Datenweiterleitung."
     ],
-    "answer": "C",
+    "answer": "B",
     "explanation": "Eine Checksumme ist eine kleine zusätzliche Zahl, die aus den Daten eines Datenpakets berechnet wird. Sie dient dazu, Fehler bei der Übertragung zu erkennen."
   },
   {
@@ -881,22 +882,22 @@
     "options": [
       "A) Eine Checksumme kommt nur in WLAN-Netzen vor.",
       "B) Eine Checksumme kommt nur in Routern vor.",
-      "C) Eine Checksumme kommt in vielen Bereichen der Netzwerktechnik und Informatik vor. Sie ist zum Beispiel in Netzwerkpaketen enthalten, etwa im Internet-Protokoll oder im TCP-Header. Auch bei Dateien oder Speicherübertragungen wird sie verwendet, um zu prüfen, ob die Daten korrekt angekommen oder gespeichert worden sind.",
-      "D) Eine Checksumme kommt nur in Betriebssystemen vor."
+      "C) Eine Checksumme kommt nur in Betriebssystemen vor.",
+      "D) Eine Checksumme kommt in vielen Bereichen der Netzwerktechnik und Informatik vor. Sie ist zum Beispiel in Netzwerkpaketen enthalten, etwa im Internet-Protokoll oder im TCP-Header. Auch bei Dateien oder Speicherübertragungen wird sie verwendet, um zu prüfen, ob die Daten korrekt angekommen oder gespeichert worden sind."
     ],
-    "answer": "C",
+    "answer": "D",
     "explanation": "Eine Checksumme kommt in vielen Bereichen der Netzwerktechnik und Informatik vor. Sie ist zum Beispiel in Netzwerkpaketen enthalten, etwa im Internet-Protokoll oder im TCP-Header. Auch bei Dateien oder Speicherübertragungen wird sie verwendet, um zu prüfen, ob die Daten korrekt angekommen oder gespeichert worden sind."
   },
   {
     "question": "Zu welcher Schicht bzw. welchen Schichten gehört die Netzwerkkarte im OSI-Modell?",
     "type": "mc",
     "options": [
-      "A) Nur Schicht 2 (Sicherungsschicht)",
-      "B) Schicht 3 (Vermittlungsschicht)",
-      "C) Schicht 1 und Schicht 2 (Bitübertragungsschicht und Sicherungsschicht)",
+      "A) Schicht 1 und Schicht 2 (Bitübertragungsschicht und Sicherungsschicht)",
+      "B) Nur Schicht 2 (Sicherungsschicht)",
+      "C) Schicht 3 (Vermittlungsschicht)",
       "D) Schicht 4 (Transportschicht)"
     ],
-    "answer": "C",
+    "answer": "A",
     "explanation": "Eine Netzwerkkarte arbeitet im OSI-Modell auf zwei Schichten. In Schicht 1 (Bitübertragungsschicht) wandelt sie Daten in elektrische oder optische Signale um. In Schicht 2 (Sicherungsschicht) verarbeitet sie Ethernet-Frames und nutzt die MAC-Adresse zur Kommunikation im lokalen Netzwerk."
   }
 ]
