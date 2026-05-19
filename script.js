@@ -19,7 +19,6 @@ document.getElementById("textAnswer").addEventListener("keydown", (e) => {
 
 function cleanQuestionText(text) {
   if (!text) return "";
-
   return text
     .split("\nA)")[0]
     .split("\nAntwort:")[0]
@@ -32,18 +31,15 @@ function clearAnswerButtons() {
 }
 
 function loadQuestion() {
+  if (current >= questions.length) return;
+  
   let q = questions[current];
-
   answered = false;
-
   clearAnswerButtons();
 
-  // Frage bereinigen
   document.getElementById("question").innerText = cleanQuestionText(q.question);
-
   document.getElementById("feedback").innerHTML = "";
   document.getElementById("textAnswer").value = "";
-
   document.getElementById("nextBtn").style.display = "block";
 
   let answersDiv = document.getElementById("answers");
@@ -56,11 +52,14 @@ function loadQuestion() {
       btn.innerText = opt;
       btn.className = "answer-btn";
 
-      btn.onclick = () => checkAnswer(opt);
+      // KORREKTUR: Nur den Antwortbuchstaben übergeben
+      btn.onclick = () => {
+        let letter = opt.trim().charAt(0);
+        checkAnswer(letter);
+      };
 
       answersDiv.appendChild(btn);
     });
-
     document.getElementById("textAnswer").style.display = "none";
   }
 
@@ -83,7 +82,6 @@ function loadQuestion() {
 
       answersDiv.appendChild(btn);
     });
-
     document.getElementById("textAnswer").style.display = "block";
   }
 
@@ -92,13 +90,11 @@ function loadQuestion() {
 
 function checkAnswer(value) {
   if (answered) return;
-
   answered = true;
 
   let q = questions[current];
   let feedback = document.getElementById("feedback");
 
-  // Buttons deaktivieren
   document.querySelectorAll(".answer-btn").forEach(btn => {
     btn.disabled = true;
     btn.style.opacity = "0.6";
@@ -129,7 +125,6 @@ function checkAnswer(value) {
   }
 
   document.getElementById("nextBtn").style.display = "block";
-
   updateProgress();
 }
 
@@ -137,21 +132,17 @@ function nextQuestion() {
   let q = questions[current];
 
   if (!answered) {
-
     if (q.type === "text" || q.type === "copy") {
       let value = document.getElementById("textAnswer").value;
-
       if (!value.trim()) {
         let feedback = document.getElementById("feedback");
         feedback.className = "wrong";
         feedback.innerHTML = "Bitte gib zuerst eine Antwort ein.";
         return;
       }
-
       checkAnswer(value);
       return;
     }
-
     let feedback = document.getElementById("feedback");
     feedback.className = "wrong";
     feedback.innerHTML = "Bitte wähle zuerst eine Antwort aus.";
@@ -168,6 +159,9 @@ function nextQuestion() {
 }
 
 function updateProgress() {
+  // KORREKTUR: Verhindert Auslesefehler nach der letzten Frage
+  if (current >= questions.length) return;
+
   document.getElementById("progressText").innerText =
     `Frage ${current + 1} / ${questions.length}`;
 
